@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #434455;
+  background-color: #ffffff;
   letter-spacing: 0.1em;
 }
 .list {
@@ -14,10 +14,14 @@ body {
 }
 .header-navigation {
 }
+
+
+
 .header-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif
 
   display: flex;
   align-items: center;
@@ -33,7 +37,8 @@ body {
 .text-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif
 
   display: flex;
   align-items: center;

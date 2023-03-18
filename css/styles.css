@@ -1,11 +1,25 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #4046b;
+  --dark: #2e2f42;
+  --succes: ■#31d0aa;
+  --text: #434455;
+  --subtle-text: #434455;
+  --accent: #e7e9fc;
+  --light: #f4f4fd
+
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+  --white-background: #ffffff
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   letter-spacing: 0.1em;
 }
-:root {
-}
+
 .list {
   list-style: none;
 }

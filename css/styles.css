@@ -22,7 +22,7 @@ body {
 .header-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.5;
   font-family: "Raleway", sans-serif;
 
   display: flex;
@@ -39,7 +39,7 @@ body {
 .text-logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.5;
 
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.5;
+  line-height: 1.07;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -110,6 +110,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  background-color: #4d5ae5;
 
   display: flex;
   align-items: center;
@@ -121,4 +122,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.hero-btn:is(:hover, :focus) {
+  background-color: #404bbf;
 }

@@ -81,9 +81,8 @@ body {
   order: 2;
   flex-grow: 0;
 }
-
 .header-link {
-  color: #434455;
+  color: #2e2f42;
 }
 .header-link:is(:hover, :focus) {
   color: #404bbf;

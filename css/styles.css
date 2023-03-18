@@ -65,9 +65,9 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
+/* --------------------------------------- */
 .header-list {
-}
-.header-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -84,6 +84,7 @@ body {
 .header-link {
   color: #2e2f42;
 }
+/* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {
   color: #404bbf;
 }

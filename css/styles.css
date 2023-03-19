@@ -83,7 +83,7 @@ body {
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {
-  color: var(--second-color);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -134,7 +134,7 @@ body {
   flex-grow: 0;
 }
 .hero-btn:is(:hover, :focus) {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* -----------------------Sectiom 2----------------------- */
 .description {

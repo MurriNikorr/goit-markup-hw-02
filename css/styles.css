@@ -85,7 +85,7 @@ body {
   flex-grow: 0;
 }
 .header-link {
-  color: var(--logo-color);
+  color: var(--text);
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {

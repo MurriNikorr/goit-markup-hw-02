@@ -78,7 +78,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: var(--text);
+  color: var(--logo-color);
 
   flex: none;
   order: 2;

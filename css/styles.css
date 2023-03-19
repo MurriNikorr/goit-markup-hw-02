@@ -13,7 +13,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text);
   background-color: #ffffff;
   letter-spacing: 0.1em;
 }
@@ -42,7 +42,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #4d5ae5;
+  color: var(--second-color);
 
   flex: none;
   order: 0;
@@ -58,7 +58,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 
   flex: none;
   order: 1;
@@ -83,12 +83,12 @@ body {
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {
-  color: #404bbf;
+  color: var(--second-color);
 }
 .address {
   font-style: normal;
   line-height: 1.5;
-  color: #434455;
+  color: var(--text);
 }
 .header-address {
 }
@@ -99,7 +99,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--text);
 }
 /* --------------Section ---------------1 */
 .section-hero {
@@ -113,7 +113,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  color: var(--background-color);
 }
 .hero-btn {
   font-family: inherit;
@@ -126,7 +126,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
 
-  color: #ffffff;
+  color: var(--background-color);
   cursor: pointer;
 
   flex: none;
@@ -148,7 +148,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 
   flex: none;
   order: 0;
@@ -161,7 +161,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--text);
 
   flex: none;
   order: 1;
@@ -179,7 +179,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 }
 /* ----------------Section 4-------------------- */
 .team {
@@ -194,7 +194,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 }
 .team-list {
   background-color: #ffffff;
@@ -207,7 +207,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 
   flex: none;
   order: 0;
@@ -221,7 +221,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--text);
 
   flex: none;
   order: 1;
@@ -232,7 +232,7 @@ body {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: var(--light);
 }
 /* -------------Portfolio------------- */
 .list-btn {
@@ -241,12 +241,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--second-color);
   background-color: #f4f4fd;
   cursor: pointer;
 }
 .list-btn:is(:hover, :focus) {
-  color: #ffffff;
+  color: var(--background-color);
   background-color: #404bbf;
 }
 .portfolio-item {
@@ -256,7 +256,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--logo-color);
 
   flex: none;
   order: 0;
@@ -268,7 +268,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--text);
 
   flex: none;
   order: 1;

@@ -11,7 +11,7 @@
   --hero-backgrount: rgba(46, 47, 66, 0.7);
   --white-background: #ffffff;
   --background-color: #ffffff;
-  --second-color: #434455;
+  --second-color: #4d5ae5;
   --logo-color: #2e2f42;
 }
 
@@ -78,14 +78,14 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--text);
 
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 .header-link {
-  color: #2e2f42;
+  color: var(--logo-color);
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {

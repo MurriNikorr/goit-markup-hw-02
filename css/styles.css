@@ -57,7 +57,7 @@ body {
 
 /* --------------------------------------- */
 .header-list {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -75,6 +75,9 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--text);
+}
+.address-link:is(:hover, :focus) {
+  color: var(--color-link);
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {

@@ -64,7 +64,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-link {
-  color: var(--text);
+  color: var(--logo-color);
 }
 /* ---------------------------------------------- */
 .header-link:is(:hover, :focus) {
